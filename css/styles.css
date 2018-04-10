@@ -1,0 +1,80 @@
+
+* {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font
+}
+
+html{
+    height: 100%;
+}
+
+header
+{   padding: 30px;
+    font-size: 25px;
+    background: rgb(216, 120, 136);
+    border-radius: 6px;
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+.image{
+    margin:30px;
+    height: 250px;
+    width: cover;
+}
+
+.container{
+    padding: 20px;
+}
+
+.zitat{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.info-box{
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background:teal;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+}
+
+.info-box-column{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn{
+    background: grey;
+    margin: 5px;
+    padding: 4px;
+    color: white;
+}
+
+.btn-special{
+    background:rgb(216, 120, 136);
+    margin: 5px;
+    padding: 4px;
+}
+
+.contact-link{
+    margin: 10px;
+    padding: 10px;
+}
