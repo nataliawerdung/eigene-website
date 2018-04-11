@@ -86,6 +86,7 @@ header
 
 .contact-image{
     background-image: url("../bilder/tools-for-motivation-371416-unsplash.jpg");
+    filter: saturate(70%);
     background-size: cover;
     background-position: center;
 }
@@ -97,4 +98,11 @@ li{
 
 .font-pacifico{
   font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+}
+
+a[href^="https://"]{
+    color: white;
+    background: rgb(235, 126, 93);
+    width: 20px;
+    height: 20px;
 }
