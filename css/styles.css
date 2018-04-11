@@ -2,7 +2,6 @@
 * {
     color: whitesmoke;
     font-family: sans-serif;
-    font
 }
 
 html{
@@ -12,7 +11,7 @@ html{
 header
 {   padding: 30px;
     font-size: 25px;
-    background: rgb(216, 120, 136);
+    background: rgb(235, 126, 93);
     border-radius: 6px;
     color: whitesmoke;
     font-weight: normal;
@@ -43,7 +42,7 @@ header
     display: flex;
     flex-direction: row;
     align-content: center;
-    background:teal;
+    background:rgb(63, 164, 164);
     border: 1px solid whitesmoke;
     border-radius: 6px;
 }
@@ -77,4 +76,25 @@ header
 .contact-link{
     margin: 10px;
     padding: 10px;
+}
+
+.stage-image{
+    background-image: url("../bilder/juja-han-150002-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-image{
+    background-image: url("../bilder/tools-for-motivation-371416-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.font-pacifico{
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
 }
