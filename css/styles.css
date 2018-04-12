@@ -10,11 +10,12 @@ html{
 
 header
 {   padding: 30px;
-    font-size: 25px;
-    background: rgb(235, 126, 93);
+    font-size: 22px;
+    background: #ed9871;
     border-radius: 6px;
     color: whitesmoke;
     font-weight: normal;
+    text-shadow: 0.2px 0.2px 0.2px white;
 }
 
 .image{
@@ -25,16 +26,6 @@ header
 
 .container{
     padding: 20px;
-}
-
-.zitat{
-    font-size: 20px;
-    font-style: italic;
-    margin-top: 10px;
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 20px;
 }
 
 .info-box{
@@ -86,9 +77,9 @@ header
 
 .contact-image{
     background-image: url("../bilder/tools-for-motivation-371416-unsplash.jpg");
-    filter: saturate(70%);
+    filter: saturate(60%);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 li{
@@ -97,10 +88,14 @@ li{
 }
 
 .font-pacifico{
-  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    font-family: 'Pacifico', Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 27px;
+    font-weight: 100;
 }
 
-a[href^="https://"]{
+a[href^="https://"]
+{
     color: white;
     background: rgb(235, 126, 93);
     width: 20px;
