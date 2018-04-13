@@ -8,6 +8,10 @@ html{
     height: 100%;
 }
 
+h1{
+    font-size: 50px;
+}
+
 header
 {   padding: 30px;
     font-size: 22px;
