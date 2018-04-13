@@ -101,3 +101,7 @@ a[href^="https://"]
     width: 20px;
     height: 20px;
 }
+
+.card{
+    background: teal;
+}
