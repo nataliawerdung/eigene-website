@@ -1,9 +1,12 @@
 
+/* Nimm html oder body für diese grundsätzlichen Styles, die sich vererben sollen */
+/* Der universal selector (*) sollte nur für box-sizing: border-box; genommen werden. */
 * {
     color: whitesmoke;
     font-family: sans-serif;
 }
 
+/* Bitte space zwischen selector und öffnender geschweiften Klammer (überall) */
 html{
     height: 100%;
 }
@@ -23,6 +26,7 @@ header
 }
 
 .image{
+    /* Space nach Doppelpunkt */
     margin:30px;
     height: 250px;
     width: cover;
@@ -74,6 +78,7 @@ header
 }
 
 .stage-image{
+    /* Der Ordnername "bilder" ist nicht gut. English, please (img or images) */
     background-image: url("../bilder/juja-han-150002-unsplash.jpg");
     background-size: cover;
     background-position: center;
