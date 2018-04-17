@@ -119,6 +119,11 @@ a[href^="https://"] {
     background: teal;
 }
 
+.card-body-cloud{
+  background: rgb(185, 193, 194);
+  padding: 25px;
+}
+
 .button-vita {
     padding-left: 20px;
     padding-right: 20px;
@@ -132,10 +137,6 @@ a[href^="https://"] {
 body:hover .button-vita {
     transform: rotate(360deg) scale(1.2);
     background-color: rgb(237, 123, 68);
-}
-
-.cloud{
-  display: none;
 }
 
 .tropfen {
