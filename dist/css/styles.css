@@ -1,0 +1,230 @@
+body {
+  color: whitesmoke;
+  font-family: sans-serif; }
+
+html {
+  height: 100%; }
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 200px; }
+
+h2, h4 {
+  margin-bottom: 35px; }
+
+h6 {
+  margin-top: 70px;
+  margin-left: 10px; }
+
+header {
+  padding: 30px;
+  font-size: 22px;
+  background: #ed9871;
+  border-radius: 6px;
+  color: whitesmoke;
+  font-weight: normal;
+  text-shadow: 0.2px 0.2px 0.2px white; }
+
+.image {
+  margin: 30px;
+  height: 250px;
+  width: cover; }
+
+.container {
+  padding: 20px; }
+
+.info-box {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background: #3fa4a4;
+  border: 1px solid whitesmoke;
+  border-radius: 6px; }
+
+.info-box-column {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.btn {
+  background: grey;
+  margin: 5px;
+  padding: 4px;
+  color: white; }
+
+.btn-special {
+  background: #d87888;
+  margin: 5px;
+  padding: 4px; }
+
+.contact-link {
+  margin: 10px;
+  padding: 10px; }
+
+.stage-image {
+  background-image: url("../images/juja-han-150002-unsplash.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.contact-image {
+  background-image: url("../images/tools-for-motivation-371416-unsplash.jpg");
+  filter: saturate(60%);
+  background-size: cover;
+  background-position: top; }
+
+li {
+  margin-bottom: 10px;
+  font-size: 20px; }
+
+.font-pacifico {
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  color: whitesmoke;
+  font-size: 27px;
+  font-weight: 100; }
+
+a[href^="https://"] {
+  color: white;
+  background: #eb7e5d;
+  width: 20px;
+  height: 20px; }
+
+.card {
+  background: teal; }
+
+.card-body-cloud {
+  background: #b9c1c2;
+  padding: 25px; }
+
+.button-vita {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: transform 1s; }
+
+body:hover .button-vita {
+  transform: rotate(360deg) scale(1.2);
+  background-color: #ed7b44; }
+
+.tropfen {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid steelblue;
+  border-radius: 50px;
+  margin-bottom: 8px; }
+
+.wolkenball-1 {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  transform: translateX(50px);
+  background: lightblue; }
+
+.wolkenball-2 {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  transform: translateY(-40px);
+  background: lightblue; }
+
+.wolkenball-3 {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  transform: translateX(-50px);
+  background: lightblue; }
+
+.regen-1 {
+  animation: es-regnet-1 6s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes es-regnet-1 {
+  20% {
+    transform: translateY(30px); }
+  50% {
+    transform: translateY(60px); }
+  99% {
+    transform: translateY(120px); }
+  100% {
+    opacity: 0; } }
+
+.regen-2 {
+  animation: es-regnet-2 12s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes es-regnet-2 {
+  20% {
+    transform: translateY(20px); }
+  50% {
+    transform: translateY(40px); }
+  99% {
+    transform: translateY(100px); }
+  100% {
+    opacity: 0; } }
+
+.regen-3 {
+  animation: es-regnet-3 4s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes es-regnet-3 {
+  20% {
+    transform: translateY(10px); }
+  50% {
+    transform: translateY(20px); }
+  99% {
+    transform: translateY(40px); }
+  100% {
+    opacity: 0; } }
+
+.regen-4 {
+  animation: es-regnet-4 15s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes es-regnet-4 {
+  20% {
+    transform: translateY(25px); }
+  50% {
+    transform: translateY(50px); }
+  99% {
+    transform: translateY(70px); }
+  100% {
+    opacity: 0; } }
+
+.regen-5 {
+  animation: es-regnet-5 10s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes es-regnet-5 {
+  20% {
+    transform: translateY(30px); }
+  50% {
+    transform: translateY(60px); }
+  99% {
+    transform: translateY(120px); }
+  100% {
+    opacity: 0; } }
+
+.regen-6 {
+  animation: es-regnet-6 10s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes es-regnet-6 {
+  20% {
+    transform: translateY(10px); }
+  50% {
+    transform: translateY(20px); }
+  99% {
+    transform: translateY(40px); }
+  100% {
+    opacity: 0; } }
